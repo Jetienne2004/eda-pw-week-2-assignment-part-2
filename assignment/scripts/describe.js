@@ -160,7 +160,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// no entry and enter commands are backwards (if minAge<= age -->console. log('enter'), else --> console. log('no entry'))
 if(minAge <= age) {
   console.log('no entry');
 } else {
