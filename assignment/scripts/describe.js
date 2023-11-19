@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// this code declared the variable "number" to equal 1 
+// it then states that numbers will be added to the variable
+// then it sets a conditional statement saying that, once the numbers are added to the variable, if the result is greater than or equal to 2,
+//the page will display the word "yes"
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// "Dane" is the variable declared
+// the conditional statement states that if name is set to equal "mary" instead, the page will greet you saying,"hi, mary"
+// if anything else besides Dane or Mary is set in the name variable, the page will ask, "how do you do?"
 //
 
 //CODE
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// secret it the variable declared
+// code is a separate variable woth a value of 123 declared
+// the condition states that if the secret is set to super, the code value will multipky by 2
+//if the code is greater than 250, the secret will be set ti the word "duper"
 
 //CODE
 /*
@@ -133,7 +133,7 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// colorOne is set to purple but not colorTwo (missing colorTwo = 'purple')
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,6 +144,7 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// if time changes then it should not be a constant (let time = 4 instead of const time).
 let temp = 40;
 const time = 4;
 
